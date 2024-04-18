@@ -15,6 +15,12 @@ app.use((request, _, next) => {
 });
 
 app.use(express.json()); // body parser damit wir den body bei request.body lesen können
+app.use(express.static("uploads"));
+
+const upload = multer({ dest: "./uploads" });
+app.post("/api/v1/files/upload", upload.single("attachment"), (request, response) => {
+  response.json({ attachmentFile: request.file.filename });
+});
 
 app.get("/", (request, resolve) => resolve.send("it works :)"));
 
@@ -66,6 +72,7 @@ app.post(
       lastname: request.body.lastname,
       email: request.body.email,
       message: request.body.message,
+      attachmentFile: request.body.attachmentFile,
     };
 
     readMailData()

@@ -5,7 +5,8 @@
     "firstname": "Emily",
     "lastname": "Müller",
     "email": "emily@gmail.com",
-    "message": "Hello, do you have time for a meeting at 11am today?"
+    "message": "Hello, do you have time for a meeting at 11am today?",
+    "attachmentFile": null
   },
   {
     "id": 2,
@@ -13,6 +14,34 @@
     "firstname": "Henry",
     "lastname": "Bauer",
     "email": "henryB@gmail.com",
-    "message": "Hi Emily, yes I'm free at that time. Let's set up a meeting."
+    "message": "Hi Emily, yes I'm free at that time. Let's set up a meeting.",
+    "attachmentFile": null
+  },
+  {
+    "id": 1713441354942,
+    "timestamp": 1713441354942,
+    "firstname": "Thomas",
+    "lastname": "Müller",
+    "email": "Miller@gmail.com",
+    "message": "Schau dir diesen coolen baum an ",
+    "attachmentFile": "e26081af69d2cf5e50c959ae46c5b885"
+  },
+  {
+    "id": 1713442212153,
+    "timestamp": 1713442212153,
+    "firstname": "Günther",
+    "lastname": "Grob",
+    "email": "Guenti@gmail.com",
+    "message": "look at this treeeeee",
+    "attachmentFile": "51a666cc48dd0844401408581e3ea883"
+  },
+  {
+    "id": 1713446344870,
+    "timestamp": 1713446344870,
+    "firstname": "Nina",
+    "lastname": "Bohne",
+    "email": "bohne@gmail.com",
+    "message": "Hello!",
+    "attachmentFile": "dc5705957619768c5b4596708ef85ada"
   }
 ]
