@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "timestamp": "9:30",
+    "firstname": "Emily",
+    "lastname": "Müller",
+    "email": "emily@gmail.com",
+    "message": "Hello, do you have time for a meeting at 11am today?"
+  },
+  {
+    "id": 2,
+    "timestamp": "9:35",
+    "firstname": "Henry",
+    "lastname": "Bauer",
+    "email": "henryB@gmail.com",
+    "message": "Hi Emily, yes I'm free at that time. Let's set up a meeting."
+  }
+]
